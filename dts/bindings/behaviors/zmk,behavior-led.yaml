@@ -6,7 +6,7 @@ description: LED behavior (touchtype module)
 compatible: "zmk,behavior-led"
 
 # 包含这个文件后，你就不需要手动写 "#binding-cells" 了
-include: zero_param.yaml 
+include: two_param.yaml 
 
 properties:
   # 官方模板里没有这个，所以你必须手动加上，否则 DTS 里的 gpios 属性会报错
