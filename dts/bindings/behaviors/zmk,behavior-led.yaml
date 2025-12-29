@@ -1,7 +1,7 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-description: LED behavior (touchtype module)
+description: red or green led light
 
 compatible: "zmk,behavior-led"
 
