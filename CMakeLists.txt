@@ -7,4 +7,6 @@ target_sources(app PRIVATE src/behaviors/behavior_blink.c)
 target_sources(app PRIVATE src/behaviors/behavior_battery.c)
 target_sources(app PRIVATE src/behaviors/behavior_reclayer.c)
 target_sources(app PRIVATE src/behaviors/behavior_tolayer.c)
+target_sources(app PRIVATE src/behaviors/behavior_togtouch.c)
+
 target_sources(app PRIVATE drivers/sensor/xw12a/xw12a.c)
